@@ -20,10 +20,14 @@ function drawAxes() {
     // Draw grid and scale numbers
     ctx.beginPath();
     ctx.strokeStyle = '#ddd';
-    ctx.font = '12px Arial';
+    ctx.font = '14px Arial';
     ctx.fillStyle = '#333';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.lineWidth = 1;
+    
 
-    for (let i = -2; i <= 2; i++) {
+    for (let i = -5; i <= 5; i++) {
         const x = CANVAS_WIDTH / 2 + i * scaleFactor * 2;
         const y = CANVAS_HEIGHT / 2 - i * scaleFactor * 2;
 
@@ -59,7 +63,7 @@ function drawPointWithLine(previous, current, color, xLabel, yLabel) {
         ctx.moveTo(previous.x, previous.y);
         ctx.lineTo(current.x, current.y);
         ctx.strokeStyle = color;
-        ctx.lineWidth = 2;
+        ctx.lineWidth = 3;
         ctx.stroke();
     }
 
@@ -70,7 +74,7 @@ function drawPointWithLine(previous, current, color, xLabel, yLabel) {
     ctx.fill();
 
     // Label the point
-    ctx.font = '12px Arial';
+    ctx.font = '16px Arial';
     ctx.fillStyle = '#000';
     ctx.fillText(`(${xLabel.toFixed(2)}, ${yLabel.toFixed(2)})`, current.x + 10, current.y - 10);
 }
@@ -81,7 +85,7 @@ function drawOriginLine(finalPoint) {
     ctx.moveTo(CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
     ctx.lineTo(finalPoint.x, finalPoint.y);
     ctx.strokeStyle = '#FF0000';
-    ctx.lineWidth = 2;
+    ctx.lineWidth = 4;
     ctx.setLineDash([5, 5]);
     ctx.stroke();
     ctx.setLineDash([]); // Reset dash
@@ -139,6 +143,9 @@ async function visualizeCORDIC(x, y, iterations, delay) {
         <p>p<sub>cordic</sub>: ${pCordic.toFixed(4)}°</p>
     `;
 }
+
+
+
 
 // Start the visualization with user input
 function startVisualization() {
