@@ -25,7 +25,7 @@ entity topentity is
 	);
 end topentity;
 
-architecture behavior of topentity is
+architecture behavioral of topentity is
 	-- SINYAL
 	signal r_TX_DATA    : std_logic_vector(209 downto 0) := (others => '1');  -- Register yang menyimpan pesan untuk dikirim
 	signal s_TX_START   : std_logic := '0';  -- Sinyal yang disimpan untuk memulai transmisi
@@ -165,8 +165,6 @@ begin
 	dT <= "110110011001000011100101";
 	-- "1101100110111010010";
 	R  <= "10011010101001011101101100";
-	dt_min <= dT(18);
-	r_koma <= R(0);
 
 	led <= "0000";
 
@@ -219,7 +217,7 @@ begin
 		-- dT1_bcd     => "001101000101",
 		-- dT2_bcd     => "011001111000",	
 		-- R_bcd       => "0100011100100011",
-		dt_min      => dt_min,
+		dt_min      => dt(23),
 		create_done => create_done,
 		msg         => msg
 	);
@@ -238,7 +236,7 @@ begin
 	end process;
 
 	u_msg_t1 : binary_to_bcd port map(
-        i_DATA => "000" & dT(17 downto 10),
+        i_DATA => "000" & dT(22 downto 15),
         i_CLK => i_clock,
         i_start => START_BCD,
         convert_done => convert_bcd_dt1_done,
@@ -393,4 +391,5 @@ begin
 			end case;
 		end if;
 	end process;
-end behavior;
+						
+end behavioral;
