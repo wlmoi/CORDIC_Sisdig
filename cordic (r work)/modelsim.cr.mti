@@ -43,6 +43,33 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity LutTan
 -- Compiling architecture Behavioral of LutTan
 
+} {} {}} D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_RShift.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_RShift.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity W_RShift
+-- Compiling architecture rtl of W_RShift
+
+} {} {}} D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/asciihex.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/asciihex.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity asciiHex
+-- Compiling architecture behavior of asciiHex
+
+} {} {}} D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Subtractor.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Subtractor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity W_Subtractor
+-- Compiling architecture rtl of W_Subtractor
+
 } {} {}} {D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_decoder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
@@ -69,6 +96,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity theta_decoder
 -- Compiling architecture Behavioral of theta_decoder
+
+} {} {}} D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/bcd_to_biner.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/bcd_to_biner.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity bcd_to_biner
+-- Compiling architecture Behavioral of bcd_to_biner
 
 } {} {}} {D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_encoder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_encoder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -102,4 +138,26 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity W_LShift
 -- Compiling architecture rtl of W_LShift
 
-} {} {}}
+} {} {}} D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ascii_to_binary.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ascii_to_binary.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ascii_to_binary
+-- Compiling architecture Behavioral of ascii_to_binary
+
+} {} {}} D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity topentity
+-- Compiling architecture behavioral of topentity
+** Error: D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd(239): (vcom-1436) Actual expression (infix expression) of formal "i_DATA" is not globally static.
+** Error: D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd(246): (vcom-1436) Actual expression (infix expression) of formal "i_DATA" is not globally static.
+** Error: D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd(260): (vcom-1436) Actual expression (infix expression) of formal "i_DATA" is not globally static.
+** Note: D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd(395): VHDL Compiler exiting
+
+} {9.0 12.0} {}}

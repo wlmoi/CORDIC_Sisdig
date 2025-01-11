@@ -391,5 +391,25 @@ begin
 			end case;
 		end if;
 	end process;
+
+	process(clk)
+  	begin
+	if cordic_on = '1' then
+	 if rising_edge(clk) then
+	 	if waiting_iterasi = 36 then -- waiting iterasi itu integer dan dari simulasi kode matlab membutuh
+		  dt <= nilai_dt ; -- Sinyal
+		  R  <= nilai_R ; -- Sinyal juga atau Variabel Penyimpan
+
+		else then
+		 waiting_iterasi <= waiting_iterasi + 1;
+		 end if;
+	 end if;
+	else then -- Cordic_on = 0
+	    dt <= nilai_dt ; -- nilai_dt akan langsung dihubungkan ke hasil Verifikasi
+		R  <= nilai_R ; -- nilainya juga akan langsung dari hasil verifikasi
+	end if;
+
+
+
 						
 end behavioral;

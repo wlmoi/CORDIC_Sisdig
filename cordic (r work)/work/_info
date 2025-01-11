@@ -9,26 +9,26 @@ z2
 !i10f 100
 cModel Technology
 dD:/MODELSIM
-Ecordic
-Z0 w1735295432
+Eascii_to_binary
+Z0 w1736502105
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 267
+!i122 305
 Z4 dD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)
-Z5 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/Cordic.vhd
-Z6 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/Cordic.vhd
+Z5 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ascii_to_binary.vhd
+Z6 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ascii_to_binary.vhd
 l0
 L5 1
-V5h]]U0UFmbmIGLAY9PU;I0
-!s100 fcM;4`2K1?ELUiY[zBJmc1
+VE<f]Pz77Gboc:cHZDJh:n0
+!s100 iYQ:afH^aF1DdH4UP7j?=2
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1736237558
+Z8 !s110 1736502297
 !i10b 1
-Z9 !s108 1736237558.000000
-Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/Cordic.vhd|
-Z11 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/Cordic.vhd|
+Z9 !s108 1736502297.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ascii_to_binary.vhd|
+Z11 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ascii_to_binary.vhd|
 !i113 1
 Z12 o-work work -2002 -explicit
 Z13 tExplicit 1 CvgOpt 0
@@ -36,12 +36,12 @@ Abehavioral
 R1
 R2
 R3
-DEx4 work 6 cordic 0 22 5h]]U0UFmbmIGLAY9PU;I0
-!i122 267
-l90
-L22 139
-VX@=YCYR@L6zTSDfXUkVi@0
-!s100 1oaTRQTV73gW`Bl6W=g0P1
+DEx4 work 15 ascii_to_binary 0 22 E<f]Pz77Gboc:cHZDJh:n0
+!i122 305
+l27
+L13 35
+V0gG7PJbOM=6X^jVRag]ES3
+!s100 =1_[M66N;O6G5kLg>6aBN0
 R7
 32
 R8
@@ -52,26 +52,69 @@ R11
 !i113 1
 R12
 R13
-Ekuadrandetect_decoder
-Z14 w1735719490
+Easciihex
+R0
 R1
 R2
 R3
-!i122 268
+!i122 306
 R4
-Z15 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_decoder.vhd
-Z16 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_decoder.vhd
+Z14 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/asciihex.vhd
+Z15 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/asciihex.vhd
 l0
-L6 1
-VJF3TUbf77d_i0W61U?zWI2
-!s100 C>h@ZbZGm?<SMdkzXg[bE3
+L33 1
+VB>X?D^U@a`fVBMMjXZQ8:0
+!s100 E18[WIHJYk:F5mBfEZnHz1
 R7
 32
-Z17 !s110 1736237559
+Z16 !s110 1736502298
 !i10b 1
-R9
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_decoder.vhd|
-Z19 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_decoder.vhd|
+Z17 !s108 1736502298.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/asciihex.vhd|
+Z19 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/asciihex.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 8 asciihex 0 22 B>X?D^U@a`fVBMMjXZQ8:0
+!i122 306
+l73
+L41 64
+VBG>VCePJ3Sb4WzK@o^EnP3
+!s100 ]Kd3c]B2Bgn@[TIJ]j0SL1
+R7
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13
+Ebcd_to_biner
+R0
+R1
+R2
+R3
+!i122 307
+R4
+Z20 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/bcd_to_biner.vhd
+Z21 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/bcd_to_biner.vhd
+l0
+L5 1
+V3BLZ]WPU?MY1f[Rme;dNU2
+!s100 n5FZ@z8OTFgGXX>Fdz[Ln1
+R7
+32
+R16
+!i10b 1
+R17
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/bcd_to_biner.vhd|
+Z23 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/bcd_to_biner.vhd|
 !i113 1
 R12
 R13
@@ -79,65 +122,343 @@ Abehavioral
 R1
 R2
 R3
-DEx4 work 21 kuadrandetect_decoder 0 22 JF3TUbf77d_i0W61U?zWI2
-!i122 268
-l19
-L14 26
-VX2ELN5HR73_F?hzfhKFYL3
-!s100 <jD]=5cggXUhi>m@7@YGD3
+DEx4 work 12 bcd_to_biner 0 22 3BLZ]WPU?MY1f[Rme;dNU2
+!i122 307
+l11
+L10 12
+V`0<_lB_cbIXzNVQegzhDW0
+!s100 lKR2IR[:aZRhC:YaZ^AdR1
 R7
 32
-R17
+R16
 !i10b 1
-R9
-R18
-R19
+R17
+R22
+R23
+!i113 1
+R12
+R13
+Ebinary_to_bcd
+R0
+R1
+R2
+R3
+!i122 308
+R4
+Z24 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/binary_to_bcd.vhd
+Z25 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/binary_to_bcd.vhd
+l0
+L5 1
+VQ<8X9h;5HOP1`fzlA<jZ_2
+!s100 JoH_mz7mNUOaIG2M^QSnz0
+R7
+32
+Z26 !s110 1736502299
+!i10b 1
+R17
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/binary_to_bcd.vhd|
+Z28 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/binary_to_bcd.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 binary_to_bcd 0 22 Q<8X9h;5HOP1`fzlA<jZ_2
+!i122 308
+l21
+L15 52
+VL<[DA@QU8d6d3gY3cd54K2
+!s100 :8?ZMQdaJH]SWgfongFkO3
+R7
+32
+R26
+!i10b 1
+R17
+R27
+R28
+!i113 1
+R12
+R13
+Ecordic
+R0
+R1
+R2
+R3
+!i122 309
+R4
+Z29 8D:\Cordidc\CORDIC_MaidRoboCafe\CORDIC_Sisdig\Cordic.vhd
+Z30 FD:\Cordidc\CORDIC_MaidRoboCafe\CORDIC_Sisdig\Cordic.vhd
+l0
+L5 1
+Vz4L7;C8BA:;6e^z=z`Xl;3
+!s100 CA^2[JWNgf<4jB=@QJPeT2
+R7
+32
+R26
+!i10b 1
+Z31 !s108 1736502299.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Cordidc\CORDIC_MaidRoboCafe\CORDIC_Sisdig\Cordic.vhd|
+Z33 !s107 D:\Cordidc\CORDIC_MaidRoboCafe\CORDIC_Sisdig\Cordic.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 6 cordic 0 22 z4L7;C8BA:;6e^z=z`Xl;3
+!i122 309
+l76
+L20 135
+V>OAnkMcPL5Ec<;@bEhPXG3
+!s100 929N3D7>nZmGZe1Mj50Jz1
+R7
+32
+R26
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R12
+R13
+Ecreate_msg
+Z34 w1736502106
+R1
+R2
+R3
+!i122 310
+R4
+Z35 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/create_msg.vhd
+Z36 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/create_msg.vhd
+l0
+L5 1
+Vd[<zeH3`>a^nUQI=`c6a30
+!s100 ZXB0KMM8:D]@Zc::b]S??0
+R7
+32
+Z37 !s110 1736502300
+!i10b 1
+Z38 !s108 1736502300.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/create_msg.vhd|
+Z40 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/create_msg.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 create_msg 0 22 d[<zeH3`>a^nUQI=`c6a30
+!i122 310
+l39
+L22 109
+VJ1>TT9?DH[9I^VUONXZ[a1
+!s100 nYaUnJ=2Lg7`F]nf9XNk03
+R7
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R12
+R13
+Efixconverter
+R34
+R1
+R2
+R3
+!i122 311
+R4
+Z41 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/fixConverter.vhd
+Z42 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/fixConverter.vhd
+l0
+L6 1
+VCFYYj`19c0A::F;kK5:;A1
+!s100 OEJoh>??lkdZ3XQEm61Gm1
+R7
+32
+Z43 !s110 1736502301
+!i10b 1
+R38
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/fixConverter.vhd|
+Z45 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/fixConverter.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 12 fixconverter 0 22 CFYYj`19c0A::F;kK5:;A1
+!i122 311
+l16
+L14 6
+V1c7zK5@BCC_6T=2ceScEL3
+!s100 B[>C>>F;2Rg^@g6mCC1Ko1
+R7
+32
+R43
+!i10b 1
+R38
+R44
+R45
+!i113 1
+R12
+R13
+Ekuadran_detector
+R34
+R1
+R2
+R3
+!i122 312
+R4
+Z46 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadran_detector.vhd
+Z47 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadran_detector.vhd
+l0
+L5 1
+VYe`;ia5RVkea_P74o[4E50
+!s100 b]HV[LmA1TYHWY=dJZ7F01
+R7
+32
+R43
+!i10b 1
+Z48 !s108 1736502301.000000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadran_detector.vhd|
+Z50 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadran_detector.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 16 kuadran_detector 0 22 Ye`;ia5RVkea_P74o[4E50
+!i122 312
+l17
+L14 33
+VKE1aceCC^iPT9e<fKfV5E2
+!s100 1V:^5QV:Y?Okl6n^<K]T90
+R7
+32
+R43
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Ekuadrandetect_decoder
+R34
+R1
+R2
+R3
+!i122 313
+R4
+Z51 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_decoder.vhd
+Z52 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_decoder.vhd
+l0
+L6 1
+VVKYD4O;U@NEmRh_?PJBRB0
+!s100 hfOaOUieVfLgb63WPXBGJ0
+R7
+32
+Z53 !s110 1736502303
+!i10b 1
+Z54 !s108 1736502302.000000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_decoder.vhd|
+Z56 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_decoder.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 21 kuadrandetect_decoder 0 22 VKYD4O;U@NEmRh_?PJBRB0
+!i122 313
+l20
+L14 29
+V8@U[IkHkJG5O^HIMIk_D93
+!s100 id]aojS][hLG::_9`R]gL3
+R7
+32
+R53
+!i10b 1
+R54
+R55
+R56
 !i113 1
 R12
 R13
 Ekuadrandetect_encoder
-w1735723250
+R34
 R1
 R2
 R3
-!i122 269
+!i122 314
 R4
-8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_encoder.vhd
-FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_encoder.vhd
+Z57 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_encoder.vhd
+Z58 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_encoder.vhd
 l0
-L5 1
-VIg@9eDH<1[KH52B[kb?S90
-!s100 _cYMmAAROaX6Cz7:4BVXb0
+L6 1
+VP_oI[Sk<k8KX`aPIAc9lU3
+!s100 hUSjLU0JN9U?iaSU?85n?1
 R7
 32
-R17
+R53
 !i10b 1
-Z20 !s108 1736237559.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_encoder.vhd|
-!s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/kuadrandetect_encoder.vhd|
+Z59 !s108 1736502303.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_encoder.vhd|
+Z61 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/kuadrandetect_encoder.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 21 kuadrandetect_encoder 0 22 P_oI[Sk<k8KX`aPIAc9lU3
+!i122 314
+l26
+L14 32
+V4KLAb^ZoTYhPLK@KljCnJ3
+!s100 ?>aO7NDGGabHG03O1<gmS0
+R7
+32
+R53
+!i10b 1
+R59
+R60
+R61
 !i113 1
 R12
 R13
 Eluttan
-Z21 w1735140308
+Z62 w1735140308
 R1
 R2
 R3
 !i122 270
 R4
-Z22 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd
-Z23 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd
+Z63 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd
+Z64 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd
 l0
-Z24 L10 1
+Z65 L10 1
 Vf48_NEa4XzB9XbAnNzdWB1
 !s100 dEa9H09<kM];Pe3^I@j`93
 R7
 32
-R17
+Z66 !s110 1736237559
 !i10b 1
-R20
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd|
-Z26 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd|
+Z67 !s108 1736237559.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd|
+Z69 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/LutTan.vhd|
 !i113 1
 R12
 R13
@@ -153,34 +474,163 @@ V_FI1ERf;]7cVkjnk>9Q^o3
 !s100 GIgA_Nk[lJ1dedj:@YFAJ2
 R7
 32
-R17
+R66
 !i10b 1
-R20
-R25
-R26
+R67
+R68
+R69
+!i113 1
+R12
+R13
+Erobotcontrol
+R0
+R1
+R2
+R3
+!i122 315
+R4
+Z70 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/RobotControl.vhd
+Z71 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/RobotControl.vhd
+l0
+R65
+VM:`SL1H<3C9RccgzNKBe20
+!s100 O[DjegO:@EIKhMAdLnhN72
+R7
+32
+Z72 !s110 1736502304
+!i10b 1
+R59
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/RobotControl.vhd|
+Z74 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/RobotControl.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 12 robotcontrol 0 22 M:`SL1H<3C9RccgzNKBe20
+!i122 315
+l252
+L34 558
+VMkHaoUhQ9jKZ^Gb0@[B=i0
+!s100 hi^[9kHT>6Fl50>YXI@<G1
+R7
+32
+R72
+!i10b 1
+R59
+R73
+R74
+!i113 1
+R12
+R13
+Eshortestway
+R0
+R1
+R2
+R3
+!i122 316
+R4
+Z75 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ShortestWay.vhd
+Z76 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ShortestWay.vhd
+l0
+L5 1
+Vd>`U>G?DGW85BUH47`WN63
+!s100 QBn1eIAV>ZS>Q2_l7fl7^3
+R7
+32
+Z77 !s110 1736502306
+!i10b 1
+Z78 !s108 1736502306.000000
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ShortestWay.vhd|
+Z80 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/ShortestWay.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 11 shortestway 0 22 d>`U>G?DGW85BUH47`WN63
+!i122 316
+l16
+L13 21
+VlR5UEYQU8@z9Yj8;N6h]A1
+!s100 J7d6B@C3j>oh5oOeFjKzZ1
+R7
+32
+R77
+!i10b 1
+R78
+R79
+R80
+!i113 1
+R12
+R13
+Etester
+Z81 w1736502112
+R1
+R2
+R3
+!i122 317
+R4
+Z82 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/tester.vhd
+Z83 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/tester.vhd
+l0
+L5 1
+VNTH=`aDBzl0heJn_Af:k<2
+!s100 I99`GN7^UoT@Y@GE<;HXo0
+R7
+32
+Z84 !s110 1736502307
+!i10b 1
+Z85 !s108 1736502307.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/tester.vhd|
+Z87 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/tester.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 6 tester 0 22 NTH=`aDBzl0heJn_Af:k<2
+!i122 317
+l15
+L11 19
+VSa38jlIRQhjHEgf5MhBjl0
+!s100 YZgoZf[Lj9VO_<e_RAPGh0
+R7
+32
+R84
+!i10b 1
+R85
+R86
+R87
 !i113 1
 R12
 R13
 Etheta_decoder
-Z27 w1735722092
+Z88 w1735722092
 R1
 R2
 R3
 !i122 271
 R4
-Z28 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd
-Z29 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd
+Z89 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd
+Z90 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd
 l0
 L5 1
 VC137__J7J@8_fF`TVEXLP1
 !s100 3m<LQO:d6^E?f4mJaA4W?2
 R7
 32
-R17
+R66
 !i10b 1
-R20
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd|
-Z31 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd|
+R67
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd|
+Z92 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_decoder.vhd|
 !i113 1
 R12
 R13
@@ -196,34 +646,34 @@ V`RUhGhh^mc7A_L[dZWAzz3
 !s100 [3:8iS=W:Zf2IEYQBOBoS2
 R7
 32
-R17
+R66
 !i10b 1
-R20
-R30
-R31
+R67
+R91
+R92
 !i113 1
 R12
 R13
 Etheta_encoder
-Z32 w1735722080
+Z93 w1735722080
 R1
 R2
 R3
 !i122 272
 R4
-Z33 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd
-Z34 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd
+Z94 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd
+Z95 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd
 l0
 L5 1
 ViUhBJBXKaRNNzON9loJAQ1
 !s100 QU4SUC3QnJ5ic8YPJY^<l1
 R7
 32
-R17
+R66
 !i10b 1
-R20
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd|
-Z36 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd|
+R67
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd|
+Z97 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/quadrant_encoder.vhd|
 !i113 1
 R12
 R13
@@ -239,34 +689,186 @@ V:2>ITY;f:Anf0OdYDLK@A3
 !s100 QNmOPzA7mC`[Vf`Q>cPoa3
 R7
 32
-R17
+R66
 !i10b 1
-R20
-R35
-R36
+R67
+R96
+R97
+!i113 1
+R12
+R13
+Etopentity
+R0
+R1
+R2
+R3
+!i122 318
+R4
+8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd
+FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd
+l0
+R65
+VeBIzX023lLI>RBF1IBbiN3
+!s100 iXiI2^jb43EnAGj74XI=m3
+R7
+32
+Z98 !s110 1736502308
+!i10b 1
+Z99 !s108 1736502308.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd|
+!s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/TopEntity.vhd|
+!i113 1
+R12
+R13
+Euart
+R81
+R1
+R2
+R3
+!i122 319
+R4
+Z100 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart.vhd
+Z101 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart.vhd
+l0
+R65
+V:40LCfz7;QMR7L:hdCk<F3
+!s100 mXB?a5?bP9gbd[HgZ:4lR0
+R7
+32
+R98
+!i10b 1
+R99
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart.vhd|
+Z103 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 4 uart 0 22 :40LCfz7;QMR7L:hdCk<F3
+!i122 319
+l80
+L31 150
+V<D6><bCV]=jEWW^m0=i@I2
+!s100 :IVPA^DYidln@[jg8Uzg71
+R7
+32
+R98
+!i10b 1
+R99
+R102
+R103
+!i113 1
+R12
+R13
+Euart_rx
+R81
+R1
+R2
+R3
+!i122 320
+R4
+Z104 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_rx.vhd
+Z105 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_rx.vhd
+l0
+L5 1
+VCb@i;03k4zhk2c97MD:L_2
+!s100 eOYBo@ZV9dA^GMYF;3aNH2
+R7
+32
+Z106 !s110 1736502309
+!i10b 1
+Z107 !s108 1736502309.000000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_rx.vhd|
+Z109 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_rx.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 7 uart_rx 0 22 Cb@i;03k4zhk2c97MD:L_2
+!i122 320
+l38
+L18 138
+VfXnO^GEE>g[JbK;jUKfKS0
+!s100 MLokd<m@69JFO@oN0:<dY1
+R7
+32
+R106
+!i10b 1
+R107
+R108
+R109
+!i113 1
+R12
+R13
+Euart_tx
+R81
+R1
+R2
+R3
+!i122 321
+R4
+Z110 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_tx.vhd
+Z111 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_tx.vhd
+l0
+L6 1
+V[78[nLNRN=0m@ULP]0BRi2
+!s100 ?>e=Fm>oXfBlJ7ie^gN6J2
+R7
+32
+R106
+!i10b 1
+R107
+Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_tx.vhd|
+Z113 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/uart_tx.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R1
+R2
+R3
+DEx4 work 7 uart_tx 0 22 [78[nLNRN=0m@ULP]0BRi2
+!i122 321
+l28
+L20 102
+VQ>]bUjUdWUA=ii8WO64ZF2
+!s100 UiXOoH7HaRbec3V@Ghi8=3
+R7
+32
+R106
+!i10b 1
+R107
+R112
+R113
 !i113 1
 R12
 R13
 Everificator
-Z37 w1736237537
+R81
 R1
 R2
 R3
-!i122 277
+!i122 322
 R4
-Z38 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/verificator.vhd
-Z39 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/verificator.vhd
+Z114 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/verificator.vhd
+Z115 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/verificator.vhd
 l0
 L5 1
-VE][1bEBhebi=E1kFf0]n]1
-!s100 9YWi0]fO5CkiK4:mo^a?e2
+VBn2kE9jjT>OGYKoeZlNO22
+!s100 S=Q;2AL`5oWTl:1e;EBY61
 R7
 32
-Z40 !s110 1736237560
+Z116 !s110 1736502310
 !i10b 1
-Z41 !s108 1736237560.000000
-Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/verificator.vhd|
-Z43 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/verificator.vhd|
+R107
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/verificator.vhd|
+Z118 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/verificator.vhd|
 !i113 1
 R12
 R13
@@ -274,42 +876,42 @@ Abehavioral
 R1
 R2
 R3
-DEx4 work 11 verificator 0 22 E][1bEBhebi=E1kFf0]n]1
-!i122 277
+DEx4 work 11 verificator 0 22 Bn2kE9jjT>OGYKoeZlNO22
+!i122 322
 l39
-L18 70
-VZXHElRmjz^21DAzk[LCmF1
-!s100 8RMDJY]o_96QkMSnNbAj;1
+L18 71
+VDOdUlXRZ^CX=bczOMogPF0
+!s100 D:@hoAjdzVVb8=eY@XkE93
 R7
 32
-R40
+R116
 !i10b 1
-R41
-R42
-R43
+R107
+R117
+R118
 !i113 1
 R12
 R13
 Ew_adder
-R21
+R0
 R1
 R2
 R3
-!i122 273
+!i122 323
 R4
-Z44 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Adder.vhd
-Z45 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Adder.vhd
+Z119 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Adder.vhd
+Z120 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Adder.vhd
 l0
-R24
+R65
 VT]0W?2?Hhbf0zgGmFSBJf1
 !s100 EX_1[nI7cPaiI[VdoUdIf1
 R7
 32
-R17
+Z121 !s110 1736502812
 !i10b 1
-R20
-Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Adder.vhd|
-Z47 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Adder.vhd|
+Z122 !s108 1736502812.000000
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Adder.vhd|
+Z124 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Adder.vhd|
 !i113 1
 R12
 R13
@@ -318,41 +920,41 @@ R1
 R2
 R3
 DEx4 work 7 w_adder 0 22 T]0W?2?Hhbf0zgGmFSBJf1
-!i122 273
+!i122 323
 l26
 L24 5
 VQh^iUZcAAhQOO<eEF>fmN3
 !s100 =NJgS[?Y<M^WKQDPbUGF:0
 R7
 32
-R17
+R121
 !i10b 1
-R20
-R46
-R47
+R122
+R123
+R124
 !i113 1
 R12
 R13
 Ew_lshift
-Z48 w1736234341
+R0
 R1
 R2
 R3
-!i122 278
+!i122 324
 R4
-Z49 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_LShift.vhd
-Z50 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_LShift.vhd
+Z125 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_LShift.vhd
+Z126 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_LShift.vhd
 l0
-R24
+R65
 VaT<QB0<7oaiRWHS<:J1O60
 !s100 gAMbB<;[>dEJBHLoiEI`C3
 R7
 32
-R40
+R121
 !i10b 1
-R41
-Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_LShift.vhd|
-Z52 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_LShift.vhd|
+R122
+Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_LShift.vhd|
+Z128 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_LShift.vhd|
 !i113 1
 R12
 R13
@@ -360,42 +962,42 @@ Artl
 R1
 R2
 R3
-Z53 DEx4 work 8 w_lshift 0 22 aT<QB0<7oaiRWHS<:J1O60
-!i122 278
+DEx4 work 8 w_lshift 0 22 aT<QB0<7oaiRWHS<:J1O60
+!i122 324
 l25
-Z54 L24 6
-Z55 Vc`k?E4jW[nk?TQJ3`><2N1
-Z56 !s100 QC>PJN9WYeELS9Kd=4;]o2
+Z129 L24 6
+Vc`k?E4jW[nk?TQJ3`><2N1
+!s100 QC>PJN9WYeELS9Kd=4;]o2
 R7
 32
-R40
+R121
 !i10b 1
-R41
-R51
-R52
+R122
+R127
+R128
 !i113 1
 R12
 R13
 Ew_multiplier
-R21
+R0
 R1
 R2
 R3
-!i122 274
+!i122 325
 R4
-Z57 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Multiplier.vhd
-Z58 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Multiplier.vhd
+Z130 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Multiplier.vhd
+Z131 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Multiplier.vhd
 l0
 L11 1
 V9i8Pc2aB<`k7^MAS3Y<Rg2
 !s100 k_QCB:OoUHNYZ@3CWQ9XN0
 R7
 32
-R40
+Z132 !s110 1736502813
 !i10b 1
-R41
-Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Multiplier.vhd|
-Z60 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Multiplier.vhd|
+Z133 !s108 1736502813.000000
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Multiplier.vhd|
+Z135 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Multiplier.vhd|
 !i113 1
 R12
 R13
@@ -404,41 +1006,41 @@ R1
 R2
 R3
 DEx4 work 12 w_multiplier 0 22 9i8Pc2aB<`k7^MAS3Y<Rg2
-!i122 274
+!i122 325
 l26
 L25 5
 VVYniHfKC5`3JHVS72?LMS0
 !s100 dl`VRHGh^>S1lPmhH?S6c0
 R7
 32
-R40
+R132
 !i10b 1
-R41
-R59
-R60
+R133
+R134
+R135
 !i113 1
 R12
 R13
 Ew_rshift
-R21
+R0
 R1
 R2
 R3
-!i122 275
+!i122 326
 R4
-Z61 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_RShift.vhd
-Z62 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_RShift.vhd
+Z136 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_RShift.vhd
+Z137 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_RShift.vhd
 l0
-R24
+R65
 VE:gh[FgkTN270;9WmliP^3
 !s100 X5jTY:T4@7]K@0BiM:_IR2
 R7
 32
-R40
+Z138 !s110 1736502814
 !i10b 1
-R41
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_RShift.vhd|
-Z64 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_RShift.vhd|
+R133
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_RShift.vhd|
+Z140 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_RShift.vhd|
 !i113 1
 R12
 R13
@@ -447,41 +1049,41 @@ R1
 R2
 R3
 DEx4 work 8 w_rshift 0 22 E:gh[FgkTN270;9WmliP^3
-!i122 275
+!i122 326
 l25
 L24 4
 VoQN3a8RT>Ag=0IT_K`IBB3
 !s100 XgB=2BMHO;?U3Gkofh[Ez1
 R7
 32
-R40
+R138
 !i10b 1
-R41
-R63
-R64
+R133
+R139
+R140
 !i113 1
 R12
 R13
 Ew_subtractor
-R21
+R0
 R1
 R2
 R3
-!i122 276
+!i122 327
 R4
-Z65 8D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Subtractor.vhd
-Z66 FD:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Subtractor.vhd
+Z141 8D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Subtractor.vhd
+Z142 FD:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Subtractor.vhd
 l0
-R24
+R65
 V_Y@]jP`5QVSzXO:19mjE[2
 !s100 WQK_PdcFam@<e58eCOc_72
 R7
 32
-R40
+R138
 !i10b 1
-R41
-Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Subtractor.vhd|
-Z68 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/cordic (r work)/W_Subtractor.vhd|
+Z143 !s108 1736502814.000000
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Subtractor.vhd|
+Z145 !s107 D:/Cordidc/CORDIC_MaidRoboCafe/CORDIC_Sisdig/W_Subtractor.vhd|
 !i113 1
 R12
 R13
@@ -489,19 +1091,19 @@ Artl
 R1
 R2
 R3
-DEx4 work 12 w_subtractor 0 22 _Y@]jP`5QVSzXO:19mjE[2
-!i122 276
+Z146 DEx4 work 12 w_subtractor 0 22 _Y@]jP`5QVSzXO:19mjE[2
+!i122 327
 l26
-R54
-V=bMHX0A;U?oc;WXmNR>eF2
-!s100 FiNUFAH_mlz_[lRT=5RY=0
+R129
+Z147 V=bMHX0A;U?oc;WXmNR>eF2
+Z148 !s100 FiNUFAH_mlz_[lRT=5RY=0
 R7
 32
-R40
+R138
 !i10b 1
-R41
-R67
-R68
+R143
+R144
+R145
 !i113 1
 R12
 R13

@@ -6,11 +6,9 @@ ENTITY Cordic IS
   PORT(
     clk             : IN  std_logic;
     reset           : IN  std_logic;
-    clk_enable      : IN  std_logic;
     cordic_on       : IN  std_logic;
     x_in            : IN  SIGNED(10 DOWNTO 0);
     y_in            : IN  SIGNED(10 DOWNTO 0);
-    clk_enable_out  : OUT std_logic := '0';
     z               : OUT std_logic;
     r_cordic        : OUT SIGNED(29 DOWNTO 0) ; -- 15 bit di belakang koma
     p_cordic        : OUT SIGNED(16 DOWNTO 0) := (OTHERS => '0'); -- 7 bit di depan koma, 10 bit di belakang koma
@@ -24,10 +22,7 @@ ARCHITECTURE Behavioral OF Cordic IS
   SIGNAL state : state_type := IDLE;
 
   SIGNAL x, y : SIGNED(13 DOWNTO 0) := (OTHERS => '0');
-  SIGNAL px, py : SIGNED(13 DOWNTO 0) := (OTHERS => '0');
   SIGNAL iteration : SIGNED(5 DOWNTO 0) := (OTHERS => '0');
-  SIGNAL arc_tan_lut : SIGNED(31 DOWNTO 0) := (OTHERS => '0');
-  SIGNAL r_unadjusted : SIGNED(27 DOWNTO 0) := (OTHERS => '0');
   SIGNAL shifted_x, shifted_y : SIGNED(13 DOWNTO 0);
   SIGNAL z_internal : SIGNED (32 DOWNTO 0) := (OTHERS => '0');
   SIGNAL r_mulitpler : SIGNED (15 DOWNTO 0) := "0100110110110010" ;
@@ -89,7 +84,6 @@ ARCHITECTURE Behavioral OF Cordic IS
 
 BEGIN
   -- Port mapping for W_RShift
-  
   RShiftX_Instance: W_RShift GENERIC MAP (Size => 13) PORT MAP (A => x, Shift => to_integer((iteration)), Result => shifted_x);
   RShiftY_Instance: W_RShift GENERIC MAP (Size => 13) PORT MAP (A => y, Shift => to_integer((iteration)), Result => shifted_y);
 
@@ -127,8 +121,6 @@ BEGIN
 
         WHEN CALCULATE =>
           IF to_integer(unsigned(iteration)) < 31 THEN
-            px <= shifted_x;
-            py <= shifted_y;
             IF y < 0 THEN
               z_internal <= z_internal - (('0') & signed(LUT_VALUES(to_integer(iteration)))); -- Gunakan LUT
               x <= x - shifted_y;
