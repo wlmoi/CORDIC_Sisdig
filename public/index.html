@@ -71,6 +71,44 @@
         #cordicTable {
             margin-top: 20px;
         }
+
+        /* Custom Console Styles */
+        #consoleContainer {
+            margin-top: 20px;
+            padding: 15px;
+            background: #1e1e1e;
+            color: #00ff00;
+            border-radius: 10px;
+            font-family: 'Algerian', monospace; /* Font Algerian */
+            font-size: 16px;
+            white-space: pre-wrap;
+            line-height: 1.5;
+            overflow-y: auto;
+            max-height: 300px; /* Optional: Limit height */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        #consoleInput {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            background: #333;
+            color: #00ff00;
+            border-radius: 5px;
+            outline: none;
+            font-family: monospace;
+        }
+
+        .console-header {
+            color: #ffcc00;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -100,9 +138,63 @@
         <div id="cordicTable"></div>
     </div>
 
+    <!-- NEW: Console Output -->
+    <div class="container">
+        <h2>Interactive Console Output</h2>
+        <div id="consoleContainer">
+            <div class="console-header">-- Virtual Console --</div>
+            <div id="consoleOutput">System Ready...</div>
+            <input type="text" id="consoleInput" placeholder="Type your command here..." onkeypress="handleConsoleInput(event)">
+        </div>
+    </div>
+
     <!-- Include Table Script -->
     <script src="table.js"></script>
     <!-- Include Graph Script -->
     <script src="script.js"></script>
+
+    <script>
+        // Function to write logs to console output
+        function writeToConsoleOutput(message) {
+            const outputDiv = document.getElementById('consoleOutput');
+            outputDiv.textContent += "\n" + message; // Add new message
+            outputDiv.scrollTop = outputDiv.scrollHeight; // Scroll automatically to the bottom
+        }
+
+        // Intercept console.log
+        (function() {
+            const originalConsoleLog = console.log; // Save original console.log
+            console.log = function(message) {
+                originalConsoleLog(message); // Keep original functionality
+                writeToConsoleOutput(message); // Output to custom console
+            };
+        })();
+
+        // Handle input from console input box
+        function handleConsoleInput(event) {
+            if (event.key === "Enter") {
+                const inputBox = event.target;
+                const userInput = inputBox.value.trim();
+
+                if (userInput) {
+                    console.log("> " + userInput); // Log the user input
+                    // Example response
+                    if (userInput.toLowerCase() === "help") {
+                        console.log("Available commands: help, run, clear");
+                    } else if (userInput.toLowerCase() === "clear") {
+                        document.getElementById('consoleOutput').textContent = "Console cleared.";
+                    } else {
+                        console.log("Command not recognized: " + userInput);
+                    }
+                }
+
+                inputBox.value = ""; // Clear the input box
+            }
+        }
+
+        // Example startup log
+        console.log("Cordic Visualizer initialized...");
+        console.log("Type 'help' for available commands.");
+    </script>
 </body>
 </html>
